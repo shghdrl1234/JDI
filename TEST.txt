@@ -76,5 +76,5 @@ git push origin master
 => 전송될 데이터들이 나오면서 commit한 데이터가 github에 올라간 것을 확인하는 명령어.
 
 
-git remote remobe origin
+git remote remove origin
 => 기존에 연결되어있는 원격 저장소와의 연결을 끊는 명령어.
