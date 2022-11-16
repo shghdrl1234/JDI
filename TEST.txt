@@ -82,3 +82,6 @@ git remote remove origin
 
 git config --list
 => 현재 저장소별 설정 정보 조회
+
+git config --list
+=> 전역 저장소별 설정 정보 조회
