@@ -78,3 +78,7 @@ git push origin master
 
 git remote remove origin
 => 기존에 연결되어있는 원격 저장소와의 연결을 끊는 명령어.
+
+
+git config --list
+=> 현재 저장소별 설정 정보 조회
