@@ -83,5 +83,21 @@ git remote remove origin
 git config --list
 => 현재 저장소별 설정 정보 조회
 
-git config --list
+git config --global --list
 => 전역 저장소별 설정 정보 조회
+
+------ 레포지토리를 통째로 다른 레포지토리로 옮기기 -------
+
+1. 먼저 옮기고 싶은 저장소 https 주소를 복사한다.
+=> git remote -v로 확인.
+
+2. git clone --mirror https://복사한 주소 입력
+
+3. 현재 로컬 Git과 새 레포지토리를 연결해주는 길을 만들어 줘야함.
+=> 내가 작성한 소스코드들이 있는 곳으로 위치 이동.
+
+4. 옮길 새로운 저장소의 https 주소를 복사하고
+git remote set-url --push origin https://옮길 주소
+
+5. git push --mirror
+  
