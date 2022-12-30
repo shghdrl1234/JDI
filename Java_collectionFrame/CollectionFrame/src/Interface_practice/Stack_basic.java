@@ -5,7 +5,6 @@ package Interface_practice;
 	 * 자바 Stack 인터페이스 이다.
 	 * Stack 인터페이스는 Stack에 의해 구현된다. 
 	 * 
-	 * 
 	 */
 
 public interface Stack_basic<E> {

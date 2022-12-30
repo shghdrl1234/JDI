@@ -22,6 +22,7 @@ public class HashSet_ {
 	 */
 	public static void main(String[] args) {
 		
+	
 		// HashSet() : HashSet 객체를 생성한다.
 		HashSet h = new HashSet();
 		
