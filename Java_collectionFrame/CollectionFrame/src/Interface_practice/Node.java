@@ -8,11 +8,13 @@ public class Node<E> {
 	
 	E data;
 	Node<E> next; // 다음 노드 객체를 가리키는 래퍼런스 변수.
-				  // 노드 자체를 가리키기 때문에 타입 또한 Node<E>타입으로 지정해준다.
+	 				// 노드 자체를 가리키기 때문에 타입 또한 Node<E>타입으로 지정해준다.
+	Node<E> prev;
 	
 	Node(E data) {
 		this.data = data;
 		this.next = null;
+		this.prev = null;
 	}
 
 }
