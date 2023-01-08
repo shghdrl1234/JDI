@@ -241,12 +241,23 @@ public class CircularQueue {
 			return item;
 		}
 	 
-		
+		/*
+		 * 현재 배열의 크기를 반환.
+		 * => 용적이 아니다. 
+		 */
 		public int size() {
 			return size;
 		}
-		
-		
+
+		/*
+		 * 현재 찾고자 하는 요소가 큐에 있는지 확인하는 contains 메서드.
+		 *  
+		 * 이 때 0번째 인덱스부터 용적크기까지 모두 검사할 수도 있지만, 기본적으로
+		 * 용적 크기에 비해 요소의 개수가 훨씬 적은 경우가 많다.
+		 *  
+		 * 그래서 모든 공간을 찾기보다는 요소의 개수만큼 
+		 * 정확히 범위를 짚어서 반복해주는 것이 더욱 효율적이다.
+		 */
 		public boolean contains(Object value) {
 			
 			int start = (front + 1) % array.length;
@@ -261,6 +272,18 @@ public class CircularQueue {
 				}
 			}
 			return false;
+		}
+		
+		/*
+		 * 모든 큐의 요소를 비울 때 사용
+		 */
+		public void clear() {
+			
+			for(int i = 0; i < array.length; i++) {
+				array[i] = null;
+			}
+				
+			front = rear = size = 0;
 		}
 	}
 	
