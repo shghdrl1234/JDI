@@ -1,4 +1,4 @@
-package Interface_practice;
+package Interface.Stack;
 
 import java.util.Arrays;
 import java.util.EmptyStackException;

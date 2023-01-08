@@ -1,4 +1,4 @@
-package Interface_practice;
+package Interface.List;
 	/*
 	 * st_lab님의 자료구조 블로그를 참고하였다,
 	 *

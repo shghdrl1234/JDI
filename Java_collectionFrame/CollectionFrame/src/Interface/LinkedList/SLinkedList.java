@@ -1,6 +1,8 @@
-package Interface_practice;
+package Interface.LinkedList;
 
 import java.util.NoSuchElementException;
+
+import Interface.List.List_basic;
 
 public class SLinkedList<E> implements List_basic<E> {
 

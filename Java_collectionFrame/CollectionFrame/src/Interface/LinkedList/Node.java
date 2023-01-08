@@ -1,4 +1,4 @@
-package Interface_practice;
+package Interface.LinkedList;
 
 public class Node<E> {
 	/*
