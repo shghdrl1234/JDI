@@ -13,5 +13,9 @@ public class 궁금한것 {
 	 * 
 	 * 1. 프림알고리즘 // 힙정렬이 주로 사용되는 알고리즘이라고 함.
 	 * 2. 다익스트라 // 힙정렬이 주로 사용되는 곳.
+	 * 3. Open Addressing // Hash 충돌 해결법
+	 * 4. Separate Chaining // Hash 충돌 해결법
+	 * 5. 버킷(배열) // 이름이 신기해서.
+	 * 6. LRU 알고리즘 // LinkedHashSet의 대부분이 사용되는 곳이라고 함.
 	 */
 }
